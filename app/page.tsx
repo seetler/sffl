@@ -60,7 +60,7 @@ export default function SitcomWebsite() {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Film className="h-8 w-8 text-purple-600" />
-              <span className="text-2xl font-bold text-gray-900">WorkPlace</span>
+              <span className="text-2xl font-bold text-gray-900">Fault Lines</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <Link href="#show" className="text-gray-700 hover:text-purple-600 transition-colors">
@@ -92,7 +92,7 @@ export default function SitcomWebsite() {
                   Work<span className="text-purple-600">Place</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  A hilarious new sitcom about the chaos, friendships, and unexpected moments that happen when you&aposre
+                  A hilarious new sitcom about the chaos, friendships, and unexpected moments that happen when you`&apos;`re
                   just trying to get through another day at the office.
                 </p>
               </div>
@@ -152,7 +152,7 @@ export default function SitcomWebsite() {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-4xl font-bold text-gray-900">About the Show</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              WorkPlace follows a group of quirky employees at Pinnacle Solutions, a mid-sized consulting firm where
+              Fault Lines follows a group of quirky employees at Pinnacle Solutions, a mid-sized consulting firm where
               nothing ever goes according to plan. From disastrous client meetings to office birthday parties that
               spiral out of control, this ensemble cast brings heart and humor to the everyday absurdities of corporate
               life.
@@ -253,8 +253,8 @@ export default function SitcomWebsite() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Don&apost Miss the Premiere!</h2>
-          <p className="text-xl mb-8 opacity-90">Set your reminders and get ready to laugh with WorkPlace</p>
+          <h2 className="text-4xl font-bold mb-4">Don`&apos;`t Miss the Premiere!</h2>
+          <p className="text-xl mb-8 opacity-90">Set your reminders and get ready to laugh with Fault Lines</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
               Set Reminder
@@ -277,7 +277,7 @@ export default function SitcomWebsite() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Film className="h-6 w-6 text-purple-400" />
-                <span className="text-xl font-bold">WorkPlace</span>
+                <span className="text-xl font-bold">Fault Lines</span>
               </div>
               <p className="text-gray-400">The funniest new sitcom coming to television.</p>
             </div>
@@ -347,7 +347,7 @@ export default function SitcomWebsite() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 WorkPlace TV Show. All rights reserved.</p>
+            <p>&copy; 2025 Fault Lines. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -92,7 +92,7 @@ export default function SitcomWebsite() {
                   Work<span className="text-purple-600">Place</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  A hilarious new sitcom about the chaos, friendships, and unexpected moments that happen when you're
+                  A hilarious new sitcom about the chaos, friendships, and unexpected moments that happen when you&aposre
                   just trying to get through another day at the office.
                 </p>
               </div>
@@ -253,7 +253,7 @@ export default function SitcomWebsite() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Don't Miss the Premiere!</h2>
+          <h2 className="text-4xl font-bold mb-4">Don&apost Miss the Premiere!</h2>
           <p className="text-xl mb-8 opacity-90">Set your reminders and get ready to laugh with WorkPlace</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">

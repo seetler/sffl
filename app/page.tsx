@@ -34,7 +34,7 @@ export default function SitcomWebsite() {
     {
       name: "Cameran",
       character: "Lucas Carols",
-      bio: "A charismatic dreamer with big ideas and little follow-through, whose charm masks his struggle to grow up.",
+      bio: "A charismatic dreamer with big ideas and little follow-through, whose charm allows him to always chase the next big thing.",
       image: "/images/cast/cameran.jpg",
     },
     {

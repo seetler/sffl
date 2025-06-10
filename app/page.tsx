@@ -11,37 +11,37 @@ export default function SitcomWebsite() {
       name: "Emily",
       character: "Hannah Peller",
       bio: "A native San Franciscan with a sharp wit and a deep, grounded love for the city that quietly challenges others to face their truth.",
-      image: "/images/cast/emilyecheverria.png",
+      image: "/images/cast/emily.jpg",
     },
     {
       name: "Amber",
-      character: "Kathleen Quitarov",
+      character: "Kathleen Quitary",
       bio: "A sarcastic underachiever who drifts through life with biting humor and surprising insight.",
-      image: "/images/cast/amberzajec.jpeg",
+      image: "/images/cast/amber.jpg",
     },
     {
       name: "Christina",
       character: "Laura Prescott",
       bio: "A practical and composed Midwesterner whose clarity and warmth bring balance to chaos, even as she quietly questions her own path.",
-      image: "/images/cast/christinakruzewska.jpg",
+      image: "/images/cast/christina.jpg",
     },
     {
       name: "Dillon",
       character: "Hunter Ellsworth",
       bio: "A loyal and dependable friend with chronically bad romantic luck and a heart bigger than he lets on.",
-      image: "/images/cast/dillonthomas.png",
+      image: "/images/cast/dillon.jpg",
     },
     {
       name: "Cameran",
       character: "Lucas Carols",
       bio: "A charismatic dreamer with big ideas and little follow-through, whose charm masks his struggle to grow up.",
-      image: "/images/cast/cameran.png",
+      image: "/images/cast/cameran.jpg",
     },
     {
       name: "Jason",
       character: "Showrunner",
       bio: "Jason is seasoned showrunner with a passion for telling stories.",
-      image: "/images/cast/jasonzeng.jpg",
+      image: "/images/cast/jason.jpg",
     },
   ]
 
@@ -75,7 +75,7 @@ export default function SitcomWebsite() {
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Image src="/images/logo.png" alt="Fault Lines" width={40} height={40} className="h-8 w-auto" />
+              <Image src="/images/logo.jpg" alt="Fault Lines" width={40} height={40} className="h-8 w-auto" />
               <span className="text-2xl font-bold text-gray-900">Fault Lines</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">

@@ -88,9 +88,9 @@ export default function SitcomWebsite() {
               <Link href="#episodes" className="text-gray-700 hover:text-purple-600 transition-colors">
                 Episodes
               </Link>
-              <Link href="#news" className="text-gray-700 hover:text-purple-600 transition-colors">
+              {/* <Link href="#news" className="text-gray-700 hover:text-purple-600 transition-colors">
                 News
-              </Link>
+              </Link> */}
             </div>
             <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" target="_blank" rel="noopener noreferrer">
               <Button className="bg-purple-600 hover:bg-purple-700">Watch Trailer</Button>
@@ -136,9 +136,9 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
                     Watch Promo
                   </Button>
                 </Link>
-                <Button size="lg" variant="outline">
+                {/* <Button size="lg" variant="outline">
                   Set Reminder
-                </Button>
+                </Button> */}
               </div>
             </div>
 
@@ -345,11 +345,11 @@ Fault Lines follows a group of  friends finding their way in a city that constan
               <h4 className="font-semibold mb-4">Connect</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Twitter
-                  </Link>
+
+                    sffaultlines@gmail.com
+
                 </li>
-                <li>
+                {/* <li>
                   <Link href="#" className="hover:text-white transition-colors">
                     Instagram
                   </Link>
@@ -358,7 +358,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
                   <Link href="#" className="hover:text-white transition-colors">
                     Facebook
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

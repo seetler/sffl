@@ -8,28 +8,40 @@ import Link from "next/link"
 export default function SitcomWebsite() {
   const castMembers = [
     {
-      name: "Sarah Mitchell",
+      name: "Emily",
       character: "Emma Rodriguez",
       bio: "Emmy-nominated actress known for her work in comedy and drama",
-      image: "/placeholder.svg?height=400&width=300",
+      image: "/images/cast/emilyecheverria.png",
     },
     {
-      name: "Jake Thompson",
+      name: "Amber",
       character: "Mike Chen",
       bio: "Stand-up comedian turned actor with a knack for physical comedy",
-      image: "/placeholder.svg?height=400&width=300",
+      image: "/images/cast/amberzajec.jpeg",
     },
     {
-      name: "Maria Santos",
+      name: "Christina",
       character: "Dr. Lisa Park",
       bio: "Theater veteran making her television debut",
-      image: "/placeholder.svg?height=400&width=300",
+      image: "/images/cast/christinakruzewska.jpg",
     },
     {
-      name: "David Kim",
+      name: "Dillon",
       character: "Tony Williams",
       bio: "Former SNL writer and performer bringing his wit to the small screen",
-      image: "/placeholder.svg?height=400&width=300",
+      image: "/images/cast/dillonthomas.png",
+    },
+    {
+      name: "Cameran",
+      character: "Jennifer Walsh",
+      bio: "Award-winning actress with a background in improv and sketch comedy",
+      image: "/images/cast/rachel-green.jpg",
+    },
+    {
+      name: "Jason",
+      character: "Showrunner",
+      bio: "Jason is seasoned showrunner with a passion for relatable comedies",
+      image: "/images/cast/jasonzeng.jpg",
     },
   ]
 
@@ -152,7 +164,7 @@ export default function SitcomWebsite() {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-4xl font-bold text-gray-900">About the Show</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Fault Lines follows a group of quirky employees at Pinnacle Solutions, a mid-sized consulting firm where
+              WorkPlace follows a group of quirky employees at Pinnacle Solutions, a mid-sized consulting firm where
               nothing ever goes according to plan. From disastrous client meetings to office birthday parties that
               spiral out of control, this ensemble cast brings heart and humor to the everyday absurdities of corporate
               life.
@@ -197,7 +209,7 @@ export default function SitcomWebsite() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {castMembers.map((actor, index) => (
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow">
                 <CardContent className="p-0">
@@ -254,7 +266,7 @@ export default function SitcomWebsite() {
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Don`&apos;`t Miss the Premiere!</h2>
-          <p className="text-xl mb-8 opacity-90">Set your reminders and get ready to laugh with Fault Lines</p>
+          <p className="text-xl mb-8 opacity-90">Set your reminders and get ready to laugh with WorkPlace</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
               Set Reminder
@@ -277,7 +289,7 @@ export default function SitcomWebsite() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Film className="h-6 w-6 text-purple-400" />
-                <span className="text-xl font-bold">Fault Lines</span>
+                <span className="text-xl font-bold">WorkPlace</span>
               </div>
               <p className="text-gray-400">The funniest new sitcom coming to television.</p>
             </div>
@@ -347,7 +359,7 @@ export default function SitcomWebsite() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Fault Lines. All rights reserved.</p>
+            <p>&copy; 2024 Fault Lines TV Show. All rights reserved.</p>
           </div>
         </div>
       </footer>

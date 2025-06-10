@@ -9,60 +9,64 @@ export default function SitcomWebsite() {
   const castMembers = [
     {
       name: "Emily",
-      character: "Emma Rodriguez",
-      bio: "Emmy-nominated actress known for her work in comedy and drama",
+      character: "Hannah Peller",
+      bio: "A native San Franciscan with a sharp wit and a deep, grounded love for the city that quietly challenges others to face their truth.",
       image: "/images/cast/emilyecheverria.png",
     },
     {
       name: "Amber",
-      character: "Mike Chen",
-      bio: "Stand-up comedian turned actor with a knack for physical comedy",
+      character: "Kathleen Quitarov",
+      bio: "A sarcastic underachiever who drifts through life with biting humor and surprising insight.",
       image: "/images/cast/amberzajec.jpeg",
     },
     {
       name: "Christina",
-      character: "Dr. Lisa Park",
-      bio: "Theater veteran making her television debut",
+      character: "Laura Prescott",
+      bio: "A practical and composed Midwesterner whose clarity and warmth bring balance to chaos, even as she quietly questions her own path.",
       image: "/images/cast/christinakruzewska.jpg",
     },
     {
       name: "Dillon",
-      character: "Tony Williams",
-      bio: "Former SNL writer and performer bringing his wit to the small screen",
+      character: "Hunter Ellsworth",
+      bio: "A loyal and dependable friend with chronically bad romantic luck and a heart bigger than he lets on.",
       image: "/images/cast/dillonthomas.png",
     },
     {
       name: "Cameran",
-      character: "Jennifer Walsh",
-      bio: "Award-winning actress with a background in improv and sketch comedy",
-      image: "/images/cast/rachel-green.jpg",
+      character: "Lucas Carols",
+      bio: "A charismatic dreamer with big ideas and little follow-through, whose charm masks his struggle to grow up.",
+      image: "/images/cast/cameran.png",
     },
     {
       name: "Jason",
       character: "Showrunner",
-      bio: "Jason is seasoned showrunner with a passion for relatable comedies",
+      bio: "Jason is seasoned showrunner with a passion for telling stories.",
       image: "/images/cast/jasonzeng.jpg",
     },
   ]
 
   const episodes = [
-    {
-      title: "Pilot",
-      description: "Meet the gang as they navigate their first day at the new office",
-      airDate: "March 15, 2024",
-    },
-    {
-      title: "The Presentation",
-      description: "Emma's big presentation goes hilariously wrong",
-      airDate: "March 22, 2024",
-    },
-    {
-      title: "Office Politics",
-      description: "Mike accidentally starts a workplace revolution",
-      airDate: "March 29, 2024",
-    },
-    { title: "The Team Building", description: "A corporate retreat turns into chaos", airDate: "April 5, 2024" },
-  ]
+  {
+    title: "Pilot",
+    description: "Meet the crew as they stumble through overlapping lives in a shaky city",
+    airDate: "March 15, 2026",
+  },
+  {
+    title: "Aftershocks",
+    description: "A neighbor dispute sends unexpected ripples through the group",
+    airDate: "March 22, 2026",
+  },
+  {
+    title: "Power Out",
+    description: "A citywide blackout forces secrets, confessions, and candlelit chaos",
+    airDate: "March 29, 2026",
+  },
+  {
+    title: "The Fault Line Festival",
+    description: "A local street fair brings drama, dancing, and more than one meltdown",
+    airDate: "April 5, 2026",
+  }
+]
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
@@ -71,7 +75,7 @@ export default function SitcomWebsite() {
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Film className="h-8 w-8 text-purple-600" />
+              <Image src="/images/logo.png" alt="Fault Lines" width={40} height={40} className="h-8 w-auto" />
               <span className="text-2xl font-bold text-gray-900">Fault Lines</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">
@@ -88,7 +92,9 @@ export default function SitcomWebsite() {
                 News
               </Link>
             </div>
-            <Button className="bg-purple-600 hover:bg-purple-700">Watch Trailer</Button>
+            <Link href="https://www.youtube.com/watch?v=9brPNbDhlYA" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-purple-600 hover:bg-purple-700">Watch Trailer</Button>
+            </Link>
           </nav>
         </div>
       </header>
@@ -101,18 +107,17 @@ export default function SitcomWebsite() {
               <div className="space-y-4">
                 <Badge className="bg-purple-100 text-purple-800 hover:bg-purple-200">Coming Soon</Badge>
                 <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
-                  Work<span className="text-purple-600">Place</span>
+                  Fault<span className="text-purple-600">Lines</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  A hilarious new sitcom about the chaos, friendships, and unexpected moments that happen when you`&apos;`re
-                  just trying to get through another day at the office.
+A hilarious new comedy about the chaos, friendships, and unexpected moments that happen when the ground beneath you keeps shifting.
                 </p>
               </div>
 
               <div className="flex items-center space-x-6 text-sm text-gray-500">
                 <div className="flex items-center space-x-2">
                   <Calendar className="h-4 w-4" />
-                  <span>Premieres March 15, 2024</span>
+                  <span>Premieres March 15, 2026</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Clock className="h-4 w-4" />
@@ -125,10 +130,12 @@ export default function SitcomWebsite() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
-                  <Play className="h-5 w-5 mr-2" />
-                  Watch Promo
-                </Button>
+                <Link href="https://www.youtube.com/watch?v=9brPNbDhlYA" target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+                    <Play className="h-5 w-5 mr-2" />
+                    Watch Promo
+                  </Button>
+                </Link>
                 <Button size="lg" variant="outline">
                   Set Reminder
                 </Button>
@@ -138,17 +145,16 @@ export default function SitcomWebsite() {
             {/* Promo Video Section */}
             <div className="relative">
               <div className="relative aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="WorkPlace Promo"
-                  fill
-                  className="object-cover"
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/9brPNbDhlYA?rel=0&modestbranding=1"
+                  title="Fault Lines Official Trailer"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full rounded-2xl"
                 />
-                <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                  <Button size="lg" className="bg-white/90 text-gray-900 hover:bg-white rounded-full h-16 w-16 p-0">
-                    <Play className="h-8 w-8 ml-1" />
-                  </Button>
-                </div>
               </div>
               <div className="absolute -bottom-4 -right-4 bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold">
                 Official Trailer
@@ -164,10 +170,7 @@ export default function SitcomWebsite() {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-4xl font-bold text-gray-900">About the Show</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              WorkPlace follows a group of quirky employees at Pinnacle Solutions, a mid-sized consulting firm where
-              nothing ever goes according to plan. From disastrous client meetings to office birthday parties that
-              spiral out of control, this ensemble cast brings heart and humor to the everyday absurdities of corporate
-              life.
+Fault Lines follows a group of  friends finding their way in a city that constantly feels like it&apos;s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can always depend on each other.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 mt-12">
@@ -175,7 +178,7 @@ export default function SitcomWebsite() {
                 <CardContent className="p-6 text-center">
                   <Users className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold mb-2">Ensemble Cast</h3>
-                  <p className="text-gray-600">A talented group of actors bringing unique characters to life</p>
+                  <p className="text-gray-600">Talented actors blend the everyday with heart and humor</p>
                 </CardContent>
               </Card>
 
@@ -183,15 +186,15 @@ export default function SitcomWebsite() {
                 <CardContent className="p-6 text-center">
                   <Film className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold mb-2">Fresh Comedy</h3>
-                  <p className="text-gray-600">Smart writing that finds humor in everyday workplace situations</p>
+                  <p className="text-gray-600">Smart writing that finds humor in the everday</p>
                 </CardContent>
               </Card>
 
               <Card className="border-0 shadow-lg">
                 <CardContent className="p-6 text-center">
                   <Star className="h-12 w-12 text-purple-600 mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold mb-2">Award-Winning Team</h3>
-                  <p className="text-gray-600">Created by Emmy-nominated writers and producers</p>
+                  <h3 className="text-xl font-semibold mb-2">Local Team</h3>
+                  <p className="text-gray-600">Created by storytellers who know the city and its humor.</p>
                 </CardContent>
               </Card>
             </div>
@@ -205,7 +208,7 @@ export default function SitcomWebsite() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet the Cast</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Get to know the talented actors bringing the characters of WorkPlace to life
+              Get to know the talented actors bringing the Fault Lines to life
             </p>
           </div>
 
@@ -265,9 +268,9 @@ export default function SitcomWebsite() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Don`&apos;`t Miss the Premiere!</h2>
-          <p className="text-xl mb-8 opacity-90">Set your reminders and get ready to laugh with WorkPlace</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <h2 className="text-4xl font-bold mb-4">Don&apos;t Miss the Premiere!</h2>
+          <p className="text-xl mb-8 opacity-90">Get ready to laugh, relate, and the occasional cringe</p>
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
               Set Reminder
             </Button>
@@ -278,7 +281,7 @@ export default function SitcomWebsite() {
             >
               Follow on Social
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -289,9 +292,9 @@ export default function SitcomWebsite() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Film className="h-6 w-6 text-purple-400" />
-                <span className="text-xl font-bold">WorkPlace</span>
+                <span className="text-xl font-bold">Fault Lines</span>
               </div>
-              <p className="text-gray-400">The funniest new sitcom coming to television.</p>
+              <p className="text-gray-400">The funniest and most awkward new comedy.</p>
             </div>
 
             <div>
@@ -359,7 +362,7 @@ export default function SitcomWebsite() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Fault Lines TV Show. All rights reserved.</p>
+            <p>&copy; 2025 Fault Lines. All rights reserved.</p>
           </div>
         </div>
       </footer>

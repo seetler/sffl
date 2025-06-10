@@ -92,7 +92,7 @@ export default function SitcomWebsite() {
                 News
               </Link>
             </div>
-            <Link href="https://www.youtube.com/watch?v=9brPNbDhlYA" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" target="_blank" rel="noopener noreferrer">
               <Button className="bg-purple-600 hover:bg-purple-700">Watch Trailer</Button>
             </Link>
           </nav>
@@ -130,7 +130,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="https://www.youtube.com/watch?v=9brPNbDhlYA" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
                     <Play className="h-5 w-5 mr-2" />
                     Watch Promo
@@ -148,7 +148,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/9brPNbDhlYA?rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/OZcYZ5Yf1R4?rel=0&modestbranding=1"
                   title="Fault Lines Official Trailer"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

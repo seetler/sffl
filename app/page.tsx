@@ -303,18 +303,18 @@ Fault Lines follows a group of  friends finding their way in a city that constan
               <h4 className="font-semibold mb-4">Show</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Episodes
+                  <Link href="##show" className="hover:text-white transition-colors">
+                    Show
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="#cast" className="hover:text-white transition-colors">
                     Cast
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Behind the Scenes
+                  <Link href="#episodes" className="hover:text-white transition-colors">
+                    Episodes
                   </Link>
                 </li>
               </ul>
@@ -324,18 +324,18 @@ Fault Lines follows a group of  friends finding their way in a city that constan
               <h4 className="font-semibold mb-4">Network</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Schedule
+                  <Link href="https://en.wikipedia.org/wiki/San_Francisco" className="hover:text-white transition-colors">
+                    San Francisco
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Watch Live
+                  <Link href="https://sffaultlines.blogspot.com/" className="hover:text-white transition-colors">
+                    Blog
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    On Demand
+                  <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" className="hover:text-white transition-colors">
+                    Trailer
                   </Link>
                 </li>
               </ul>

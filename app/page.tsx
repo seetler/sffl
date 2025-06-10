@@ -168,7 +168,9 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
       <section id="show" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h2 className="text-4xl font-bold text-gray-900">About the Show</h2>
+            <div className="flex justify-center mb-8">
+              <Image src="/images/logo.jpg" alt="Fault Lines" width={400} height={400}  />
+            </div>
             <p className="text-lg text-gray-600 leading-relaxed">
 Fault Lines follows a group of  friends finding their way in a city that constantly feels like it&apos;s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can always depend on each other.
             </p>

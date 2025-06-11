@@ -180,7 +180,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
                 <CardContent className="p-6 text-center">
                   <Users className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold mb-2">Ensemble Cast</h3>
-                  <p className="text-gray-600">Talented actors blend the everyday with heart and humor</p>
+                  <p className="text-gray-600">Talented actors that blend heart with humor</p>
                 </CardContent>
               </Card>
 
@@ -196,7 +196,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
                 <CardContent className="p-6 text-center">
                   <Star className="h-12 w-12 text-purple-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold mb-2">Local Team</h3>
-                  <p className="text-gray-600">Created by storytellers who know the city and its humor.</p>
+                  <p className="text-gray-600">Created by storytellers who know the city</p>
                 </CardContent>
               </Card>
             </div>
@@ -296,7 +296,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
                 <Film className="h-6 w-6 text-purple-400" />
                 <span className="text-xl font-bold">Fault Lines</span>
               </div>
-              <p className="text-gray-400">The funniest and most awkward new comedy.</p>
+              <p className="text-gray-400">The most relatable new comedy!</p>
             </div>
 
             <div>

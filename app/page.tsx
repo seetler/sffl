@@ -38,10 +38,10 @@ export default function SitcomWebsite() {
       image: "/images/cast/cameran.jpg",
     },
     {
-      name: "Jason",
-      character: "Showrunner",
-      bio: "Jason is seasoned showrunner with a passion for telling stories.",
-      image: "/images/cast/jason.jpg",
+      name: "Will",
+      character: "John Waverly",
+      bio: "After returning from a failed stint in Chicago, John returns home with a mix of optimism and self-doubt.",
+      image: "/images/cast/will.jpg",
     },
   ]
 

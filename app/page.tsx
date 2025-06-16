@@ -40,7 +40,7 @@ export default function SitcomWebsite() {
     {
       name: "Will",
       character: "John Waverly",
-      bio: "After a failed stint as a smart oven engineer in Chicago, John returns home with a mix of self-doubt and optimisim.",
+      bio: "After a failed stint as a smart oven engineer in Chicago, John returns home with a mix of self-doubt and optimism.",
       image: "/images/cast/will.jpg",
     },
   ]

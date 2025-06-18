@@ -63,7 +63,7 @@ export default function SitcomWebsite() {
   },
   {
     title: "The Timely Street Faire",
-    description: "The neighborhood\u0027s quirky spring fair is back, and everyone\u0027s roped into helping. Tensions flare as Lucas books a controversial band, John tries to avoid Laura\u0027s ex, and Hannah enters a tofu-eating contest she\u0027s wildly unqualified for.",
+    description: "The neighborhood\u0027s quirky spring fair is back, and everyone\u0027s roped into helping. Tensions flare as Hunter books a controversial band, John tries to avoid Laura\u0027s ex, and Hannah enters a tofu-eating contest she\u0027s wildly unqualified for.",
     airDate: "April 5, 2026",
   }
 ]
@@ -93,7 +93,7 @@ export default function SitcomWebsite() {
               </Link> */}
             </div>
             <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-purple-600 hover:bg-purple-700">Watch Trailer</Button>
+              <Button className="bg-purple-600 hover:bg-purple-700">Watch Promo</Button>
             </Link>
           </nav>
         </div>
@@ -149,7 +149,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
                   width="100%"
                   height="100%"
                   src="https://www.youtube.com/embed/OZcYZ5Yf1R4?rel=0&modestbranding=1"
-                  title="Fault Lines Official Trailer"
+                  title="Fault Lines Official Promo"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -157,7 +157,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold">
-                Official Trailer
+                Official Promo
               </div>
             </div>
           </div>
@@ -335,7 +335,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
                 </li>
                 <li>
                   <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" className="hover:text-white transition-colors">
-                    Trailer
+                    Promo
                   </Link>
                 </li>
               </ul>

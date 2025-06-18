@@ -270,7 +270,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Don\u0027t Miss the Premiere!</h2>
+          <h2 className="text-4xl font-bold mb-4">Don&apos;t Miss the Premiere!</h2>
           <p className="text-xl mb-8 opacity-90">Get ready to laugh, relate, and the occasional cringe</p>
           {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">

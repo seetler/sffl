@@ -172,7 +172,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
               <Image src="/images/logo.jpg" alt="Fault Lines" width={400} height={400}  />
             </div>
             <p className="text-lg text-gray-600 leading-relaxed">
-Fault Lines follows a group of  friends finding their way in a city that constantly feels like it\u0027s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can always depend on each other.
+Fault Lines follows a group of  friends finding their way in a city that constantly feels like it&apos;s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can always depend on each other.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 mt-12">

@@ -58,12 +58,12 @@ export default function SitcomWebsite() {
   },
   {
     title: "Power Out",
-    description: "A sudden blackout plunges the City, and the apartment, into darkness. With no screens to hide behind, secrets emerge over wine and melted ice cream. One roommate confesses a crush, another reveals a life change they've been hiding, and someone's emergency flashlight doubles as a disco ball.",
+    description: "A sudden blackout plunges the City, and the apartment, into darkness. With no screens to hide behind, secrets emerge over wine and melted ice cream. One roommate confesses a crush, another reveals a life change they\u0027ve been hiding, and someone\u0027s emergency flashlight doubles as a disco ball.",
     airDate: "March 29, 2026",
   },
   {
     title: "The Timely Street Faire",
-    description: "The neighborhood's quirky spring fair is back, and everyone's roped into helping. Tensions flare as Lucas books a controversial band, John tries to avoid Laura's ex, and Hannah enters a tofu-eating contest she's wildly unqualified for.",
+    description: "The neighborhood\u0027s quirky spring fair is back, and everyone\u0027s roped into helping. Tensions flare as Lucas books a controversial band, John tries to avoid Laura\u0027s ex, and Hannah enters a tofu-eating contest she\u0027s wildly unqualified for.",
     airDate: "April 5, 2026",
   }
 ]
@@ -172,7 +172,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
               <Image src="/images/logo.jpg" alt="Fault Lines" width={400} height={400}  />
             </div>
             <p className="text-lg text-gray-600 leading-relaxed">
-Fault Lines follows a group of  friends finding their way in a city that constantly feels like it's about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can always depend on each other.
+Fault Lines follows a group of  friends finding their way in a city that constantly feels like it\u0027s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can always depend on each other.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 mt-12">
@@ -270,7 +270,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Don't Miss the Premiere!</h2>
+          <h2 className="text-4xl font-bold mb-4">Don\u0027t Miss the Premiere!</h2>
           <p className="text-xl mb-8 opacity-90">Get ready to laugh, relate, and the occasional cringe</p>
           {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">

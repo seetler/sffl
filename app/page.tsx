@@ -16,7 +16,7 @@ export default function SitcomWebsite() {
     {
       name: "Amber",
       character: "Kathleen Quitary",
-      bio: "A sarcastic underachiever who drifts through life with biting humor and surprising insight.",
+      bio: "A sarcastic underachiever who drifts through life with biting humor, surprising insight, and some well-guarded soft spots.",
       image: "/images/cast/amber.jpg",
     },
     {
@@ -26,10 +26,10 @@ export default function SitcomWebsite() {
       image: "/images/cast/dylan.jpg",
     },
     {
-      name: "Dillon",
+      name: "Thomas",
       character: "Hunter Ellsworth",
-      bio: "A loyal and dependable friend with chronically bad romantic luck and a heart bigger than he lets on.",
-      image: "/images/cast/dillon.jpg",
+      bio: "A loyal and dependable friend with chronically bad romantic luck, and more personality than dollars.",
+      image: "/images/cast/thomas.jpg",
     },
     {
       name: "Will",
@@ -58,7 +58,7 @@ export default function SitcomWebsite() {
   },
   {
     title: "Power Out",
-    description: "A sudden blackout plunges the City, and the apartment, into darkness. With no screens to hide behind, secrets emerge over wine and melted ice cream. One roommate confesses a crush, another reveals a life change they\u0027ve been hiding, and someone\u0027s emergency flashlight doubles as a disco ball.",
+    description: "A sudden blackout plunges the City into darkness. With no screens to hide behind, secrets emerge over wine and melted ice cream. One roommate confesses a crush, another reveals a life change they\u0027ve been hiding, and someone\u0027s emergency flashlight doubles as a disco ball.",
     airDate: "March 29, 2026",
   },
   {
@@ -172,7 +172,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
               <Image src="/images/logo.jpg" alt="Fault Lines" width={400} height={400}  />
             </div>
             <p className="text-lg text-gray-600 leading-relaxed">
-Fault Lines follows a group of  friends finding their way in a city that constantly feels like it&apos;s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can always depend on each other.
+Fault Lines follows a group of  friends finding their way in a city that constantly feels like it&apos;s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can still depend on each other.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 mt-12">

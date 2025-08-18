@@ -20,10 +20,10 @@ export default function SitcomWebsite() {
       image: "/images/cast/amber.jpg",
     },
     {
-      name: "Christina",
+      name: "Dylan",
       character: "Laura Prescott",
       bio: "A practical and composed Midwesterner whose clarity and warmth bring balance to chaos, even as she quietly questions her own path.",
-      image: "/images/cast/christina.jpg",
+      image: "/images/cast/dylan.jpg",
     },
     {
       name: "Dillon",
@@ -32,16 +32,16 @@ export default function SitcomWebsite() {
       image: "/images/cast/dillon.jpg",
     },
     {
-      name: "Cameran",
+      name: "Will",
       character: "Lucas Carols",
       bio: "A charismatic dreamer with big ideas and little follow-through, whose charm always allows him to chase the next big thing.",
-      image: "/images/cast/cameran.jpg",
+      image: "/images/cast/will.jpg",
     },
     {
-      name: "Will",
+      name: "Austin",
       character: "John Waverly",
       bio: "After a failed stint as a smart oven engineer in Chicago, John returns home with a mix of self-doubt and optimism.",
-      image: "/images/cast/will.jpg",
+      image: "/images/cast/austin.jpg",
     },
   ]
 

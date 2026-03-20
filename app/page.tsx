@@ -29,7 +29,7 @@ export default function SitcomWebsite() {
       name: "Dillon",
       character: "Hunter Ellsworth",
       bio: "A loyal and dependable friend with chronically bad romantic luck and a heart bigger than he lets on.",
-      image: "/images/cast/dillon.jpg",
+      image: "/images/cast/thomas.jpg",
     },
     {
       name: "Cameran",

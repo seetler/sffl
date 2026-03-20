@@ -16,32 +16,32 @@ export default function SitcomWebsite() {
     {
       name: "Amber",
       character: "Kathleen Quitary",
-      bio: "A sarcastic underachiever who drifts through life with biting humor, surprising insight, and some well-guarded soft spots.",
+      bio: "A sarcastic underachiever who drifts through life with biting humor and surprising insight.",
       image: "/images/cast/amber.jpg",
     },
     {
-      name: "Dylan",
+      name: "Christina",
       character: "Laura Prescott",
       bio: "A practical and composed Midwesterner whose clarity and warmth bring balance to chaos, even as she quietly questions her own path.",
-      image: "/images/cast/dylan.jpg",
+      image: "/images/cast/christina.jpg",
     },
     {
-      name: "Thomas",
+      name: "Dillon",
       character: "Hunter Ellsworth",
-      bio: "A loyal and dependable friend with chronically bad romantic luck, and more personality than dollars.",
-      image: "/images/cast/thomas.jpg",
+      bio: "A loyal and dependable friend with chronically bad romantic luck and a heart bigger than he lets on.",
+      image: "/images/cast/dillon.jpg",
+    },
+    {
+      name: "Cameran",
+      character: "Lucas Carols",
+      bio: "A charismatic dreamer with big ideas and little follow-through, whose charm always allows him to chase the next big thing.",
+      image: "/images/cast/cameran.jpg",
     },
     {
       name: "Will",
-      character: "Lucas Carols",
-      bio: "A charismatic dreamer with big ideas and little follow-through, whose charm always allows him to chase the next big thing.",
-      image: "/images/cast/will.jpg",
-    },
-    {
-      name: "Austin",
       character: "John Waverly",
       bio: "After a failed stint as a smart oven engineer in Chicago, John returns home with a mix of self-doubt and optimism.",
-      image: "/images/cast/austin.jpg",
+      image: "/images/cast/will.jpg",
     },
   ]
 
@@ -49,22 +49,22 @@ export default function SitcomWebsite() {
   {
     title: "Pilot",
     description: "John returns to San Francisco with his fiancée Laura after a failed startup, and is unsure of what comes next. As he reconnects with his old friend Lucas, he also meets Kathleen, Hunter, and Hannah, new coworkers whose lives quickly become entangled with his in unexpected ways.",
-    airDate: "March 15, 2026",
+    airDate: "April 6th, 2026",
   },
   {
     title: "Aftershocks",
     description: "When Lucas accidentally sets off a petty conflict with a neighbor, it spirals into a whole-building feud. Kathleen tries to mediate, Hannah picks a side too early, and Laura gets caught in the middle thanks to her HOA connections. What should've been a simple apology reveals cracks in more than just the apartment walls.",
-    airDate: "March 22, 2026",
+    airDate: "September 17th, 2026",
   },
   {
     title: "Power Out",
-    description: "A sudden blackout plunges the City into darkness. With no screens to hide behind, secrets emerge over wine and melted ice cream. One roommate confesses a crush, another reveals a life change they\u0027ve been hiding, and someone\u0027s emergency flashlight doubles as a disco ball.",
-    airDate: "March 29, 2026",
+    description: "A sudden blackout plunges the City, and the apartment, into darkness. With no screens to hide behind, secrets emerge over wine and melted ice cream. One roommate confesses a crush, another reveals a life change they\u0027ve been hiding, and someone\u0027s emergency flashlight doubles as a disco ball.",
+    airDate: "September 24th, 2026",
   },
   {
     title: "The Timely Street Faire",
     description: "The neighborhood\u0027s quirky spring fair is back, and everyone\u0027s roped into helping. Tensions flare as Hunter books a controversial band, John tries to avoid Laura\u0027s ex, and Hannah enters a tofu-eating contest she\u0027s wildly unqualified for.",
-    airDate: "April 5, 2026",
+    airDate: "October 1st, 2026",
   }
 ]
 
@@ -172,7 +172,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
               <Image src="/images/logo.jpg" alt="Fault Lines" width={400} height={400}  />
             </div>
             <p className="text-lg text-gray-600 leading-relaxed">
-Fault Lines follows a group of  friends finding their way in a city that constantly feels like it&apos;s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can still depend on each other.
+Fault Lines follows a group of  friends finding their way in a city that constantly feels like it&apos;s about to shift. Set in San Francisco, the show blends humor and heart as the characters face uncertain futures, tangled relationships, and daily disruptions with sarcasm and resilience. When everything around them feels unstable, they can always depend on each other.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 mt-12">

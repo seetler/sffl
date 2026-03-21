@@ -117,7 +117,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
               <div className="flex items-center space-x-6 text-sm text-gray-500">
                 <div className="flex items-center space-x-2">
                   <Calendar className="h-4 w-4" />
-                  <span>Premieres March 15, 2026</span>
+                  <span>Premieres April 6th, 2026</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Clock className="h-4 w-4" />

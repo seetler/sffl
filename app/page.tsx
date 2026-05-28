@@ -346,7 +346,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
               <ul className="space-y-2 text-gray-400">
                 <li>
 
-                    sffaultlines@gmail.com
+                    jason@evolvedigitallyllc.com
 
                 </li>
                 {/* <li>
@@ -364,7 +364,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Fault Lines. All rights reserved.</p>
+            <p>&copy; 2026 Evolve Digitally LLC. All rights reserved.</p>
           </div>
         </div>
       </footer>

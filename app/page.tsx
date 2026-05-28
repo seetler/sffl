@@ -49,7 +49,7 @@ export default function SitcomWebsite() {
   {
     title: "Pilot",
     description: "John returns to San Francisco with his fiancée Laura after a failed startup, and is unsure of what comes next. As he reconnects with his old friend Lucas, he also meets Kathleen, Hunter, and Hannah, new coworkers whose lives quickly become entangled with his in unexpected ways.",
-    airDate: "April 6th, 2026",
+    airDate: "September 10th, 2026",
   },
   {
     title: "Aftershocks",

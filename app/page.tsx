@@ -148,8 +148,8 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/OZcYZ5Yf1R4?rel=0&modestbranding=1"
-                  title="Fault Lines Official Promo"
+                  src="https://www.youtube.com/embed/Ckf-JIGezo4?rel=0&modestbranding=1"
+                  title="Fault Lines Official Trailer"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen

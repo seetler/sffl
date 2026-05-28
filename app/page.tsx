@@ -92,7 +92,7 @@ export default function SitcomWebsite() {
                 News
               </Link> */}
             </div>
-            <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.youtube.com/watch?v=Ckf-JIGezo4" target="_blank" rel="noopener noreferrer">
               <Button className="bg-purple-600 hover:bg-purple-700">Watch Promo</Button>
             </Link>
           </nav>
@@ -130,7 +130,7 @@ A hilarious new comedy about the chaos, friendships, and unexpected moments that
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.youtube.com/watch?v=Ckf-JIGezo4" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
                     <Play className="h-5 w-5 mr-2" />
                     Watch Promo
@@ -334,7 +334,7 @@ Fault Lines follows a group of  friends finding their way in a city that constan
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.youtube.com/watch?v=OZcYZ5Yf1R4" className="hover:text-white transition-colors">
+                  <Link href="https://www.youtube.com/watch?v=Ckf-JIGezo4" className="hover:text-white transition-colors">
                     Promo
                   </Link>
                 </li>

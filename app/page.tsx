@@ -107,7 +107,7 @@ export default function SitcomWebsite() {
               <div className="space-y-4">
                 <Badge className="bg-purple-100 text-purple-800 hover:bg-purple-200">Coming Soon</Badge>
                 <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
-                  Fault<span className="text-purple-600">Lines</span>
+                  Fault <span className="text-purple-600">Lines</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
 A hilarious new comedy about the chaos, friendships, and unexpected moments that happen when the ground beneath you keeps shifting.

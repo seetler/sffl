@@ -230,7 +230,7 @@ export default function SitcomWebsite() {
                 />
               </div>
               <div className="text-center">
-                  A sharp, character-driven ensemble comedy set in San Francisco. Meet the friends navigating life on shifting ground.
+                  Sharp character-driven ensemble comedy set in San Francisco.
               </div>
             </div>
           </div>

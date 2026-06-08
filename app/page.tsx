@@ -105,12 +105,12 @@ export default function SitcomWebsite() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="https://www.youtube.com/watch?v=Ckf-JIGezo4" target="_blank" rel="noopener noreferrer">
+                <a href="#pilot">
                   <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
                     <Play className="h-5 w-5 mr-2" />
-                    Watch Promo
+                    Watch Pilot
                   </Button>
-                </Link>
+                </a>
               </div>
             </div>
 
@@ -129,7 +129,7 @@ export default function SitcomWebsite() {
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold">
-                Official Promo
+                Official Trailer
               </div>
             </div>
           </div>

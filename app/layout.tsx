@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sffaultlines.com"),
   title: "Fault Lines - Official Sitcom Website",
   description:
     "A hilarious new comedy about the chaos, friendships, and unexpected moments that happen when the ground beneath you keeps shifting.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Fault Lines",
     images: [
       {
-        url: "/images/logo.png",
+        url: "/images/logo.jpg",
         alt: "Fault Lines Logo",
       },
     ],
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     title: "Fault Lines - Official Sitcom Website",
     description:
       "A hilarious new comedy about the chaos, friendships, and unexpected moments that happen when the ground beneath you keeps shifting.",
-    images: ["/images/logo.png"],
+    images: ["/images/logo.jpg"],
     creator: "@sffaultlines",
   },
 

@@ -79,7 +79,6 @@ export default function SitcomWebsite() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <Badge className="bg-purple-100 text-purple-800 hover:bg-purple-200">Pilot Complete</Badge>
                 <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
                   Fault <span className="text-purple-600">Lines</span>
                 </h1>

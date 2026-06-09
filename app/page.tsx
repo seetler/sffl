@@ -136,6 +136,34 @@ export default function SitcomWebsite() {
         </div>
       </section>
 
+      {/* Finished Pilot */}
+      <section id="pilot" className="bg-gradient-to-r from-purple-600 to-blue-600 py-20 text-white">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-10 text-center">
+              <Badge className="mb-4 border border-white/30 bg-white/15 text-white">
+                The Complete Pilot
+              </Badge>
+              <h2 className="mb-4 text-4xl font-bold md:text-5xl">Watch Fault Lines</h2>
+            </div>
+
+            <div className="overflow-hidden rounded-2xl border border-white/25 bg-black shadow-2xl shadow-purple-950/30">
+              <div className="relative aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/ogZtYyYOsfA?rel=0&modestbranding=1"
+                  title="Fault Lines - Complete Pilot"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="absolute inset-0 h-full w-full"
+                />
+              </div>
+              <div className="text-center">
+                  Sharp character-driven ensemble comedy set in San Francisco.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Show Information */}
       <section id="show" className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -208,34 +236,6 @@ export default function SitcomWebsite() {
         </div>
       </section>
 
-      {/* Finished Pilot */}
-      <section id="pilot" className="bg-gradient-to-r from-purple-600 to-blue-600 py-20 text-white">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
-            <div className="mb-10 text-center">
-              <Badge className="mb-4 border border-white/30 bg-white/15 text-white">
-                The Complete Pilot
-              </Badge>
-              <h2 className="mb-4 text-4xl font-bold md:text-5xl">Watch Fault Lines</h2>
-            </div>
-
-            <div className="overflow-hidden rounded-2xl border border-white/25 bg-black shadow-2xl shadow-purple-950/30">
-              <div className="relative aspect-video">
-                <iframe
-                  src="https://www.youtube.com/embed/ogZtYyYOsfA?rel=0&modestbranding=1"
-                  title="Fault Lines - Complete Pilot"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                  className="absolute inset-0 h-full w-full"
-                />
-              </div>
-              <div className="text-center">
-                  Sharp character-driven ensemble comedy set in San Francisco.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="border-t border-purple-400/20 bg-gray-900 py-12 text-white">

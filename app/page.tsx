@@ -89,15 +89,15 @@ export default function SitcomWebsite() {
               <div className="flex items-center space-x-6 text-sm text-gray-500">
                 <div className="flex items-center space-x-2">
                   <CheckCircle2 className="h-4 w-4" />
-                  <span>Independent pilot</span>
+                  <span>Independent Pilot</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Clock className="h-4 w-4" />
-                  <span>30 min comedy</span>
+                  <span>30 min Episode</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Star className="h-4 w-4" />
-                  <span>Comedy</span>
+                  <span>Fresh Cast</span>
                 </div>
               </div>
 

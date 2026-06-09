@@ -40,14 +40,13 @@ export default function SitcomWebsite() {
     {
       name: "Austin",
       character: "John Waverly",
-      bio: "After a failed stint as a smart oven engineer in Chicago, John returns home with a mix of self-doubt and optimism.",
+      bio: "After a failed stint in ethanol production in North Dakota, John returns home with a mix of self-doubt and optimism.",
       image: "/images/cast/austin.jpg",
     },
   ]
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
-      {/* Header */}
       <header className="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
@@ -73,7 +72,6 @@ export default function SitcomWebsite() {
         </div>
       </header>
 
-      {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -113,7 +111,6 @@ export default function SitcomWebsite() {
               </div>
             </div>
 
-            {/* Promo Video Section */}
             <div className="relative">
               <div className="relative aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-2xl">
                 <iframe
@@ -135,7 +132,6 @@ export default function SitcomWebsite() {
         </div>
       </section>
 
-      {/* Finished Pilot */}
       <section id="pilot" className="bg-gradient-to-r from-purple-600 to-blue-600 py-20 text-white">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-5xl">
@@ -163,7 +159,6 @@ export default function SitcomWebsite() {
           </div>
         </div>
       </section>
-      {/* Show Information */}
       <section id="show" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -206,7 +201,6 @@ export default function SitcomWebsite() {
         </div>
       </section>
 
-      {/* Cast Section */}
       <section id="cast" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -234,9 +228,6 @@ export default function SitcomWebsite() {
           </div>
         </div>
       </section>
-
-
-      {/* Footer */}
       <footer className="border-t border-purple-400/20 bg-gray-900 py-12 text-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">

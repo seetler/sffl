@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   creator: "Evolve Digitally LLC",
   publisher: "Evolve Digitally LLC",
 
-  // Open Graph metadata for social media
   openGraph: {
     title: "Fault Lines - Official Sitcom Website",
     description:
@@ -28,7 +27,6 @@ export const metadata: Metadata = {
     type: "website",
   },
 
-  // Twitter Card metadata
   twitter: {
     card: "summary_large_image",
     title: "Fault Lines - Official Sitcom Website",
@@ -38,34 +36,21 @@ export const metadata: Metadata = {
     creator: "@sffaultlines",
   },
 
-  // Favicon and icons
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" }
     ],
-    // apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
     shortcut: "/favicon.ico",
   },
 
-  // Additional metadata
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
-      // "max-video-preview": -1,
-      // "max-image-preview": "large",
-      // "max-snippet": -1,
     },
   },
-
-  // Verification for search engines
-  // verification: {
-  //   google: "your-google-verification-code",
-  //   // yandex: 'your-yandex-verification-code',
-  //   // yahoo: 'your-yahoo-verification-code',
-  // },
 }
 
 export default function RootLayout({

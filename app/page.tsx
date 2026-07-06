@@ -145,7 +145,7 @@ export default function SitcomWebsite() {
             <div className="overflow-hidden rounded-2xl border border-white/25 bg-black shadow-2xl shadow-purple-950/30">
               <div className="relative aspect-video">
                 <iframe
-                  src="https://www.youtube.com/embed/ogZtYyYOsfA?rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/k40Fx41pqIs?rel=0&modestbranding=1"
                   title="Fault Lines - Complete Pilot"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -274,7 +274,7 @@ export default function SitcomWebsite() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.youtube.com/watch?v=ogZtYyYOsfA" className="hover:text-white transition-colors">
+                  <Link href="https://www.youtube.com/watch?v=k40Fx41pqIs" className="hover:text-white transition-colors">
                     Pilot
                   </Link>
                 </li>

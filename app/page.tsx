@@ -264,8 +264,8 @@ export default function SitcomWebsite() {
               <h4 className="font-semibold mb-4">Network</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <Link href="https://en.wikipedia.org/wiki/San_Francisco" className="hover:text-white transition-colors">
-                    San Francisco
+                  <Link href="https://www.imdb.com/title/tt43440267/fullcredits/" className="hover:text-white transition-colors">
+                    IMDB
                   </Link>
                 </li>
                 <li>
